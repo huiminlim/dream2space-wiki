@@ -2,6 +2,54 @@
 
 This is the front pitch for the contents to be covered for the dream2space educational Cubesat kit.
 
+- Overview of Concepts
+  - Hardware Architecture and Design Principles
+    - On-board Computer (OBC)
+    - Electrical Power System (EPS)
+    - Attitude Determination and Control System (ADCS)
+    - Telemetry, Tracking and Communication (TT&C)
+    - Payload
+  - Microcontroller and Sensors Interfacing
+  - Embedded Systems, Real-time Operating Systems (RTOS) and FreeRTOS
+  - Networking, Socket Programming and Cubesat Space Protocol (CSP)
+  - Linux and Raspberry Pi
+  - Consultative Committee for Space Data Systems (CCSDS) Standard
+  - Communications and Error Correction
+  - Software Testing and Debugging
+- Development Environment Set-up
+  - Version Control, Git and Github
+  - Integrated Development Environment (IDE) - Atmel Studio
+  - Raspberry Pi and Configurations
+  - Windows Subsystem for Linux (WSL)
+  - Terminal Emulators - Tera Term
+- Cubesat Space Protocol (CSP)
+  - CSP Set-up
+  - Basic Three-way Nodes Communication
+  - OBC, EPS and ADCS CSP Communication Set-up
+- Sensors and Storage
+  - ADCS - Inertial Measurement Unit (IMU) BMI160
+  - EPS - Barometric Pressure Sensor BMP280
+  - CSP Data Exchange with OBC
+  - Data Storage in SD card
+- TT&C
+  - Transceiver and UART Interface
+  - TT&C and CSP Communications with Subsystems
+  - Ground Station Development
+  - TT&C CCSDS Telecommands and Telemetry Design
+    - Housekeeping Data
+    - Beacons
+- Payload and Payload Computer
+  - Mission Purpose
+  - Payload CCSDS Telecommands and Telemetry Design
+- Systems Integration Testing
+- Fault Tolerance
+  - CSP I2C Bus
+  - Subsystem Clock Synchronization
+  - OBC System Failure
+
+<!---
+
+
 - [Front Pitch](#front-pitch)
   - [Overview of Concepts](#overview-of-concepts)
     - [Hardware Architecture and Design Principles](#hardware-architecture-and-design-principles)
@@ -33,7 +81,7 @@ This is the front pitch for the contents to be covered for the dream2space educa
     - [CSP Data Exchange with OBC](#csp-data-exchange-with-obc)
     - [Data Storage in SD card](#data-storage-in-sd-card)
   - [TT&C](#tt-c)
-    - [Interface Transceiver](#interface-transceiver)
+    - [Transceiver and UART Interface](#transceiver-and-uart-interface)
     - [TT&C and CSP Communications with Subsystems](#tt-c-and-csp-communications-with-subsystems)
     - [Ground Station Development](#ground-station-development)
     - [TT&C CCSDS Telecommands and Telemetry Design](#tt-c-ccsds-telecommands-and-telemetry-design)
@@ -108,7 +156,7 @@ This is the front pitch for the contents to be covered for the dream2space educa
 
 ## TT&C
 
-### Interface Transceiver
+### Transceiver and UART Interface
 
 ### TT&C and CSP Communications with Subsystems
 
@@ -135,3 +183,4 @@ This is the front pitch for the contents to be covered for the dream2space educa
 ### Subsystem Clock Synchronization
 
 ### OBC System Failure
+-->
