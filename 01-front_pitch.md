@@ -18,10 +18,10 @@ This is the front pitch for the contents to be covered for the dream2space educa
   - Software Testing and Debugging
 - [Development Environment Set-up](02-development_setup.md)
   - [Version Control, Git and Github](./02-development_setup.md#version-control--git-and-github)
-  - Integrated Development Environment (IDE) - Atmel Studio
-  - Raspberry Pi and Configurations
-  - Windows Subsystem for Linux (WSL)
-  - Terminal Emulators - Tera Term
+  - [Integrated Development Environment (IDE) - Atmel Studio](./02-development_setup.md#integrated-development-environment--ide----atmel-studio)
+  - [Raspberry Pi and Configurations](./02-development_setup.md#raspberry-pi-and-configurations)
+  - [Windows Subsystem for Linux (WSL)](./02-development_setup.md#windows-subsystem-for-linux--wsl-)
+  - [Terminal Emulators - Tera Term](./02-development_setup.md#terminal-emulators---tera-term)
 - Cubesat Space Protocol (CSP)
   - CSP Set-up
   - Basic Three-way Nodes Communication
