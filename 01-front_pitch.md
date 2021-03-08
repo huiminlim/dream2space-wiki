@@ -16,8 +16,8 @@ This is the front pitch for the contents to be covered for the dream2space educa
   - Consultative Committee for Space Data Systems (CCSDS) Standard
   - Communications and Error Correction
   - Software Testing and Debugging
-- Development Environment Set-up
-  - Version Control, Git and Github
+- [Development Environment Set-up](02-development_setup.md)
+  - [Version Control, Git and Github](./02-development_setup.md#version-control--git-and-github)
   - Integrated Development Environment (IDE) - Atmel Studio
   - Raspberry Pi and Configurations
   - Windows Subsystem for Linux (WSL)
