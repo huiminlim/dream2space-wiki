@@ -1,1 +1,1 @@
-../README.adoc
+include::../README.adoc
