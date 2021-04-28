@@ -10,7 +10,9 @@ Follow the instructions to install Raspbian OS.
 
 ## Step 2: Set up the SD Card to enable Ethernet and SSH
 
-First, edit the file `/boot/config.txt` and append this line at the end:
+First, create an empty text file named `ssh`.
+
+Then, edit the file `/boot/config.txt` and append this line at the end:
 
 ```bash
 dtoverlay=dwc2
