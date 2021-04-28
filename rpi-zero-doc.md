@@ -2,6 +2,8 @@
 
 This documentation describes how to share internet access from a PC to the Raspberry Pi Zero W.
 
+Source: [here](https://artivis.github.io/post/2020/pi-zero/) and [here](https://solarianprogrammer.com/2018/12/07/raspberry-pi-zero-internet-usb/) and [here](https://www.diyhobi.com/share-windows-internet-raspberry-pi-ethernet-port/)
+
 ## Step 1: Install Raspbian OS
 
 Follow the instructions to install Raspbian OS.
