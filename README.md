@@ -2,6 +2,6 @@
 
 This repo contains the wiki files for the dream2space Cubesat.
 
-## Front Pitch
+## Raspberry Pi Setup
 
-The link to the front pitch page is [here](01-front_pitch.md)
+Click [here](/rpi-3b-setup.md) to view the setup for the payload's raspberry pi.
