@@ -38,9 +38,20 @@ This is done by going through the right click menu and creating a file as such.
 
 Boot up the Raspberry Pi and wait for a few minutes until the Yellow LED remains stable for around 5 minutes.
 
-## Step 5: Access the Raspberry Pi
+## Step 5: SSH into the Raspberry Pi
 
-Using any of the methods described in the main document, access the Raspberry Pi.
+Open Putty and key the IP address into the terminal as shown below.
+
+![putty](https://www.diyhobi.com/wp-content/uploads/2016/12/putty-raspberrypi-local.png)
+
+Once successful, the login screen will appear. Login with the default account credentials:
+
+```bash
+username: pi
+password: raspberry
+```
+
+![SSH login](images/ssh_login.png)
 
 ## Step 5: Enable VNC UART interfaces
 
