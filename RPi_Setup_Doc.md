@@ -18,12 +18,12 @@ The micro SD card slot can be found on the side of the Raspberry Pi as shown in 
 ![Raspberry Pi SD slot](https://projects-static.raspberrypi.org/projects/raspberry-pi-setting-up/0d6033edf45ad2d4185ed05d6cd9a01e2f803034/en/images/pi-sd.png)
 
 | ⚠️  | **Always ensure that the Raspberry Pi is shutdown properly as the SD card is prone to data corruption if shutdown is not done properly.** |
-| -- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| -- | :----------------------------------------------------------------------------------------------------------------------------------------- |
 
 The micro SD card comes pre-loaded with the necessary setup to be done to run the Payload.
 
 | 💡 | **If there are any data corruption and/or SD card does not boot up as expected, refer to the [Appendix](./appendix.md) for information on how to reset the SD card.**                                                                                                                                      |
-| -  | --------------------------------------------------------------------------------------                                                    |
+| -  | :--------------------------------------------------------------------------------------                                                    |
 
 ## Step 2: Power up the Raspberry Pi
 
