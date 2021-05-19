@@ -16,9 +16,9 @@ There are **4** planned documentations to be completed.
 
 1. Raspberry Pi Documentation for **Mass Pre-Production** of the SD cards (before they are dispatched).
 
-2. Raspberry Pi Documentation for users' first (normal intended) boot.
+2. Raspberry Pi Documentation for users' **first normal intended** boot.
 
-3. Raspberry Pi Documentation for users to re-setup SD cards (if operation failures occur).
+3. Raspberry Pi Documentation for users to re-setup SD cards **if operation failures occur**.
 
 4. Ground Station Documentation for users.
 
