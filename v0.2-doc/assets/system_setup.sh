@@ -35,11 +35,11 @@ do_vnc                  0       # Enable VNC
 # Don't add any raspi-config configuration options after 'END' line below & don't remove 'END' line
 END
 
+# Reboot after all changes above complete
 echo "Restarting to apply changes"
 for (( i=10; i>0; i--)); do
   sleep 1 &
   printf "Rebooting in $i ...\r"
   wait
 done
-# Reboot after all changes above complete
 /sbin/shutdown -r now
