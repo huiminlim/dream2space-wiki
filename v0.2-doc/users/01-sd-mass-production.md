@@ -70,11 +70,13 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
     ![Boot volume](images/this_pc_boot.png)
 
-10. Click on the `boot` drive in `File Explorer`.
+## Step 2: Copy Custom Setup scripts to the SD Card
+
+1. Click on the `boot` drive in `File Explorer`.
 
     ![Boot Drive](images/boot_drive.png)
 
-    Download and copy the config scripts into the `boot` drive.
+2. Download and copy the config scripts into the `boot` drive.
 
     The config scripts can be downloaded from here:
 
@@ -82,11 +84,29 @@ This User Guide is meant for persons who are mass producing the SD card for drea
     - [system_setup.sh](assets/mass-production/system_setup.sh)
     - [wpa_supplicant.conf](assets/mass-production/wpa_supplicant.conf)
 
-## Step 2: Enable SSH in the Raspberry Pi OS
+    Once the copying is complete, the 3 files should appear like in the image below.
 
-## Step 3: Copy Custom Setup scripts to the SD Card
+    ![Copy done](images/copy_config_files_done.png)
 
-## Step 4: Configure WiFi credentials to the Raspberry Pi OS
+## Step 3: Configure WiFi credentials to the Raspberry Pi OS
+
+1. Locate the `wpa_supplicant.conf` file in the `boot` drive and open it using Notepad.
+
+    ![WPA Supplicant File](images/wpa_supplicant_file.png)
+
+2. Fill in the template with the WiFi Router name and the Password.
+
+    Save the changes in the file.
+
+    ![Wifi Router and Password](images/wifi_setup.png)
+
+## Step 4: Enable SSH in the Raspberry Pi OS
+
+1. Download an empty `ssh` file from the link [here](assets/mass-production/ssh).
+
+2. Copy the file into the `boot` drive.
+
+    ![Enable SSH](images/enable_ssh.png)
 
 ## Step 5: Boot up Raspberry Pi
 
