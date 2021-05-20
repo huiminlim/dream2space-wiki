@@ -202,6 +202,10 @@ Power up the Raspberry Pi.
 
     ![Connect HDMI](images/raspberry_pi_hdmi.jpg)
 
+    Connect the USB keyboard and USB mouse to the Raspberry Pi's USB ports.
+
+    ![Connect USB](images/raspberry_pi_usb.jpg)
+
 2. Switch to the HDMI source to view the Raspberry Pi GUI.
 
     Upon successful viewing of the GUI, the following screen will show:
