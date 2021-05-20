@@ -99,7 +99,8 @@ Setup and operations best done on a PC that runs on Windows 10.
 
     - [payload_config.sh](assets/mass-production/payload_config.sh)
     - [system_setup.sh](assets/mass-production/system_setup.sh)
-    - [wpa_supplicant.conf](assets/mass-production/wpa_supplicant.conf)
+    - <a href="assets/mass-production/wpa_supplicant.conf" download>wpa_supplicant.conf</a>
+
 
     Once the copying is complete, the 3 files should appear like in the image below.
 
