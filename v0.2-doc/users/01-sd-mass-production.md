@@ -14,8 +14,8 @@ Here is a list of items required for the mass production of SD Card.
 | Raspberry Pi Micro-USB Power Supply |                                                                                            |
 | Monitor                             |                                                                                            |
 | HDMI Cable                          | HDMI on one side, and the other side <br>depends on the input required by the Monitor used |
-| USB Keyboard                        |                                                                                            |
-| USB Mouse                           |                                                                                            |
+| USB Keyboard                        | Can be wired or wireless                                                                   |
+| USB Mouse                           | Can be wired or wireless                                                                   |
 
 Setup and operations best done on a PC that runs on Windows 10.
 
