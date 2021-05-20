@@ -2,6 +2,23 @@
 
 This User Guide is meant for persons who are mass producing the SD card for dream2space Cubesat's payload.
 
+## Items required
+
+Here is a list of items required for the mass production of SD Card.
+
+| Items                               | Remarks                                                                                    |
+| ----------------------------------- | ------------------------------------------------------------------------------------------ |
+| Raspberry Pi 3B+                    |                                                                                            |
+| SanDisk 32 GB Ultra Micro SD Card   |                                                                                            |
+| SD Card Reader                      | Optional, depends on PC type so that <br>Micro SD Card may be inserted into PC             |
+| Raspberry Pi Micro-USB Power Supply |                                                                                            |
+| Monitor                             |                                                                                            |
+| HDMI Cable                          | HDMI on one side, and the other side <br>depends on the input required by the Monitor used |
+| USB Keyboard                        |                                                                                            |
+| USB Mouse                           |                                                                                            |
+
+Setup and operations best done on a PC that runs on Windows 10.
+
 ## Step 1: Flashing the Raspbian OS to SD card
 
 1. Download and install the Raspberry Pi Imager application from the website [here](https://www.raspberrypi.org/software/).
