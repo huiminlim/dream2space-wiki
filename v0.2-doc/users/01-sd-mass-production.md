@@ -123,6 +123,8 @@ Setup and operations best done on a PC that runs on Windows 10.
 
     ![Wifi Router and Password](images/wifi_setup.png)
 
+Note: If running the WiFi in NUS network, this link may help: <https://sumukhramprasad.wordpress.com/2016/03/02/connecting-to-nus-wifi-on-a-raspberry-pi/>
+
 ## Step 4: Enable SSH in the Raspberry Pi OS
 
 1. Download an empty `ssh` file from the link [here](assets/mass-production/ssh).
@@ -272,7 +274,6 @@ The GUI settings of the Raspberry Pi will be configured.
 7. Click `Done` to complete setup.
 
     ![GUI Done](images/gui_done.png)
-
 
 8. Click on the WiFi Logo at the top right hand corner to delete the WiFi credentials entered into the Raspberry Pi previously.
 
