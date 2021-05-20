@@ -112,7 +112,68 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
 ## Step 6: SSH into Raspberry Pi
 
+1. Ensure that PuTTY is installed on the PC.
+
+    You may download PuTTY from this website [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
+    Website: <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html/>
+
+2. Open up PuTTY and SSH into PuTTY.
+
+    To SSH into PuTTY, enter `raspberrypi.local` into the `Host Name (or IP address)` box boxed in **<span style="color: green">green</span>** in the image below.
+
+    Ensure that the `Port` entered is `22` (by default).
+
+    ![Do SSH](images/do_ssh.png)
+
+    Click `Open`, which is boxed in **<span style="color: blue">blue</span>** in the image.
+
+3. Login to the Raspberry Pi when prompted.
+
+    The default credentials for Raspberry Pi login are here:
+
+    ```bash
+    username: pi
+    password: raspberry
+    ```
+
+    After entering the username and password individually (and sequentially), press `Enter` to confirm.
+
+    ![Login to SSH](images/ssh_login.png)
+
+    If the login is successful, the screen below will appear.
+
+    ![SSH login sucess](images/ssh_success.png)
+
 ## Step 7: Run Custom Setup scripts in Raspberry Pi
+
+1. Run the `payload_config.sh` script that is saved in the `boot` drive to install the libraries and Payload Manager code.
+
+    To do so, type the following command into the PuTTY terminal and press `Enter`:
+
+    ```bash
+    sudo /boot/payload_config.sh
+    ```
+
+    The `payload_config.sh` script will run and wait till its completion.
+
+    ![Run payload config script](images/run_payload_config.png)
+
+2. Run the `system_setup.sh` script that is saved in the `boot` drive to setup the Raspberry Pi.
+
+    To do so, type the following command into the PuTTY terminal and press `Enter`.
+
+    ```bash
+    sudo /boot/system_setup.sh
+    ```
+
+    The `system_setup.sh` script will run and wait till its completion.
+
+    ![Run system setup script](images/run_system_setup.png)
+
+    Upon its completion, the Raspberry Pi will reboot and the PuTTY terminal connection will be disconnected.
+
+    Close the PuTTY terminal.
 
 ## Step 8: View GUI of the Raspberry Pi
 
