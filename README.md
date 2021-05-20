@@ -20,9 +20,15 @@ There are **4** planned documentations to be completed.
 
 2. Raspberry Pi Documentation for users' **first normal intended** boot.
 
+    Link is [here](v0.2-doc/users/02-payload_first_boot.md).
+
 3. Raspberry Pi Documentation for users to re-setup SD cards **if operation failures occur**.
 
+    Link is [here](v0.2-doc/users//03-payload_setup.md).
+
 4. Ground Station Documentation for users.
+
+    Link is [here](v0.2-doc/users/04-ground_station.md).
 
 ## Developers' Guide Documentation Plans
 
