@@ -18,19 +18,19 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
 3. Click on the `Choose OS` button under the `Operating System` section.
 
-    The `Choose OS` button is boxed in **<span style="color: green">green</span>** in the image below.
+    The `Choose OS` button is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Raspberry Pi Imager Select OS](images/raspberry_pi_imager_select_os.png)
 
 4. Select the first option, `Raspberry Pi OS (32-bit)`.
 
-    The first option `Raspberry Pi OS (32-bit)` is boxed in **<span style="color: green">green</span>** in the image below.
+    The first option `Raspberry Pi OS (32-bit)` is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Select Raspberry Pi OS](images/select_raspbian_os.png)
 
 5. Click on the `Choose Storage` button under the `Storage` section.
 
-    The `Choose Storage` button is boxed in **<span style="color: green">green</span>** in the image below.
+    The `Choose Storage` button is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Select Storage](images/raspberry_pi_select_storage.png)
 
@@ -40,13 +40,13 @@ This User Guide is meant for persons who are mass producing the SD card for drea
     | ⚠️ | **To prevent overwriting your other drives, it is recommended to eject all drives before inserting the SD Card.** |
     | - | -------------------------------------------------------------------------------------- |
 
-    For example, the SD Card detected is shown and boxed  in **<span style="color: green">green</span>** in the image below.
+    For example, the SD Card detected is shown and boxed  in **<span style="color: lime">green</span>** in the image below.
 
     ![Storage Options](images/raspberry_pi_storage_options.png)
 
 7. Click on the `Write` button to begin the flashing.
 
-    The `Write` button is boxed in **<span style="color: green">green</span>** in the image below.
+    The `Write` button is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Write to SD Card](images/raspberry_pi_write.png)
 
@@ -58,7 +58,7 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
 8. Wait for the OS write process to complete.
 
-    Upon completion, click the `Continue` button boxed in **<span style="color: green">green</span>** in the image below.
+    Upon completion, click the `Continue` button boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![OS Write Complete](images/raspberry_pi_os_completion.png)
 
@@ -120,7 +120,7 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
 2. Open up PuTTY and SSH into PuTTY.
 
-    To SSH into PuTTY, enter `raspberrypi.local` into the `Host Name (or IP address)` box boxed in **<span style="color: green">green</span>** in the image below.
+    To SSH into PuTTY, enter `raspberrypi.local` into the `Host Name (or IP address)` box boxed in **<span style="color: lime">green</span>** in the image below.
 
     Ensure that the `Port` entered is `22` (by default).
 
@@ -177,4 +177,85 @@ This User Guide is meant for persons who are mass producing the SD card for drea
 
 ## Step 8: View GUI of the Raspberry Pi
 
+1. Plug in a HDMI cable to the Raspberry Pi and connect the HDMI cable to a Monitor.
+
+    The HDMI port is boxed in **<span style="color: red">red</span>** in the image below.
+
+    ![Connect HDMI](images/raspberry_pi_hdmi.jpg)
+
+2. Switch to the HDMI source to view the Raspberry Pi GUI.
+
+    Upon successful viewing of the GUI, the following screen will show:
+
+    ![GUI Screen](images/gui_start.png)
+
 ## Step 9: Configure the GUI settings
+
+1. Click on the `Next` button to proceed with the setup.
+
+    The `Next` button is boxed in **<span style="color: lime">green</span>** in the image below.
+
+    ![GUI Begin](images/gui_start2.png)
+
+2. Select the Country, Language and Timezone.
+
+    Select the following settings:
+
+    ```bash
+    Country:    Singapore
+    Language:   English
+    Timezone:   Singapore
+    ```
+
+    ![GUI Select Country, Language and Timezone](images/gui_language.png)
+
+    Click the `Next` button to proceed.
+
+3. Configure the password for the Raspberry Pi OS.
+
+    Use the standardized password:
+
+    ```bash
+    password: nus
+    ```
+
+    ![GUI Password](images/gui_password.png)
+
+    Click the `Next` button to proceed.
+
+4. Click the `Next` button to skip setting the Screen configurations.
+
+    ![GUI Screen](images/gui_screen.png)
+
+5. Click the `Skip` button to skip configuring the WiFi.
+
+    ![GUI Wifi](images/gui_wifi.png)
+
+6. Click the `Skip` button to skip updating the OS.
+
+    ![GUI Skip update](images/gui_update.png)
+
+7. Click `Done` to complete setup.
+
+    ![GUI Done](images/gui_done.png)
+
+
+8. Click on the WiFi Logo at the top right hand corner to delete the WiFi credentials entered into the Raspberry Pi previously.
+
+    Click on the currently connected WiFi to delete it.
+
+    ![Show WiFi](images/gui_see_wifi.png)
+
+    Click the `Forget` button, which is boxed in **<span style="color: lime">green</span>** in the image below.
+
+    ![Delete WiFi Connection](images/gui_forget_wifi.png)
+
+9. Shutdown the Raspberry Pi.
+
+    To navigate to the Shutdown menu, click on the Raspberry Pi Logo at the top left hand corner and click the `Logout` button.
+
+    ![Shutdown menu](images/gui_shutdown.png)
+
+    Select `Shutdown` to shutdown the Raspberry Pi safely.
+
+    ![Select Shutdown](images/gui_shutdown2.png)
