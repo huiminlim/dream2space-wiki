@@ -144,9 +144,9 @@ Power up the Raspberry Pi.
 
     Ensure that the `Port` entered is `22` (by default).
 
-    ![Do SSH](images/do_ssh.png)
-
     Click `Open`, which is boxed in **<span style="color: blue">blue</span>** in the image.
+
+    ![Do SSH](images/do_ssh.png)
 
 3. Login to the Raspberry Pi when prompted.
 
