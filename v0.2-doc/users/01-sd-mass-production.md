@@ -127,6 +127,8 @@ Setup and operations best done on a PC that runs on Windows 10.
 
 ## Step 5: Boot up Raspberry Pi
 
+Power up the Raspberry Pi.
+
 ## Step 6: SSH into Raspberry Pi
 
 1. Ensure that PuTTY is installed on the PC.
