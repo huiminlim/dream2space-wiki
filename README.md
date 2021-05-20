@@ -16,7 +16,7 @@ There are **4** planned documentations to be completed.
 
 1. Raspberry Pi Documentation for **Mass Pre-Production** of the SD cards **before they are dispatched**.
 
-    Link is [here](v0.2-doc/users/01-sd-mass-production.md)
+    Link is [here](v0.2-doc/users/01-sd-mass-production.md).
 
 2. Raspberry Pi Documentation for users' **first normal intended** boot.
 
