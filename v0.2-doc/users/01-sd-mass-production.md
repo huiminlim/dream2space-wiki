@@ -69,7 +69,7 @@ Setup and operations best done on a PC that runs on Windows 10.
 
     Click `Yes` to overwrite the SD Card.
 
-    The `Yes` button is boxed in **<span style="color: green">green</span>** in the image below.
+    The `Yes` button is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Confirm overwrite SD Card](images/raspberry_pi_overwrite_sd.png)
 
