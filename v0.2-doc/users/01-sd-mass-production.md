@@ -91,16 +91,21 @@ Setup and operations best done on a PC that runs on Windows 10.
 
 1. Click on the `boot` drive in `File Explorer`.
 
+    | ⚠️ | **Do not open or make changes to any files in this drive, unless you are 100% sure.** |
+    | - | -------------------------------------------------------------------------------------- |
+
     ![Boot Drive](images/boot_drive.png)
 
 2. Download and copy the config scripts into the `boot` drive.
+
+    | ⚠️ | **Do not edit any part of the files, except for those steps in the instructions.** |
+    | - | -------------------------------------------------------------------------------------- |
 
     The config scripts can be downloaded from here:
 
     - [payload_config.sh](assets/mass-production/payload_config.sh)
     - [system_setup.sh](assets/mass-production/system_setup.sh)
     - <a href="assets/mass-production/wpa_supplicant.conf" download>wpa_supplicant.conf</a>
-
 
     Once the copying is complete, the 3 files should appear like in the image below.
 
@@ -214,6 +219,11 @@ Power up the Raspberry Pi.
     ![GUI Screen](images/gui_start.png)
 
 ## Step 9: Configure the GUI settings
+
+The GUI settings of the Raspberry Pi will be configured.
+
+ | ⚠️ | **Make sure that all the steps here are completed before powering off the Raspberry Pi.** |
+ | - | -------------------------------------------------------------------------------------- |
 
 1. Click on the `Next` button to proceed with the setup.
 
