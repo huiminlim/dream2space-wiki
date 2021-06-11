@@ -1,4 +1,5 @@
 # User Guide - SD Card Mass Production
+<!-- markdownlint-disable MD033 -->
 
 This User Guide is meant for persons who are mass producing the SD card for dream2space Cubesat's payload.
 
@@ -50,7 +51,6 @@ Setup and operations best done on a PC that runs on Windows 10.
     The `Choose Storage` button is boxed in **<span style="color: lime">green</span>** in the image below.
 
     ![Select Storage](images/raspberry_pi_select_storage.png)
-
 
 6. Click on the SD Card storage to flash the OS onto.
 
