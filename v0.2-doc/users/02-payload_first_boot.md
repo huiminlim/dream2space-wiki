@@ -68,6 +68,28 @@ Upon successful viewing of the GUI, the following screen will show:
 
 ## Kickstarting the Payload Programs
 
+### Step 1: Ensure that the Payload transceiver is connected
+
+### Step 2: Open up the Terminal window
+
+Click on the Terminal icon at the taskbar.
+
+The Terminal icon is boxed in **<span style="color: red">red</span>** in the screenshot below.
+
+![Terminal icon](images/gui-terminal.jpg)
+
+The Terminal window will open up, like in the screenshot below.
+
+![Terminal Window](images/gui-terminal-open.png)
+
+### Step 3: Start the Payload program
+
+Type the following command exactly into the Terminal window.
+
 ```bash
 python3 /home/pi/Desktop/payload_manager-lite/payload_manager.py
 ```
+
+Once the command has run successfully, the Terminal window will display the following output to wait for new Commands from the Cubesat.
+
+![Terminal Window](images/gui-terminal-command.png)
