@@ -68,9 +68,7 @@ Upon successful viewing of the GUI, the following screen will show:
 
 ## Kickstarting the Payload Programs
 
-### Step 1: Ensure that the Payload transceiver is connected
-
-### Step 2: Open up the Terminal window
+### Step 1: Open up the Terminal window
 
 Click on the Terminal icon at the taskbar.
 
@@ -82,7 +80,7 @@ The Terminal window will open up, like in the screenshot below.
 
 ![Terminal Window](images/gui-terminal-open.png)
 
-### Step 3: Start the Payload program
+### Step 2: Start the Payload program
 
 Type the following command exactly into the Terminal window.
 
