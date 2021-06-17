@@ -12,23 +12,27 @@ These documentations are meant for users of **2** types of audience:
 
 2. Students who are using the SD cards in the Cubesat kit.
 
-There are **4** planned documentations to be completed.
+There are **5** planned documentations to be completed.
 
 1. Raspberry Pi Documentation for **Mass Pre-Production** of the SD cards **before they are dispatched**.
 
     Link is [here](v0.2-doc/users/01-sd-mass-production.md).
 
-2. Raspberry Pi Documentation for users' **first normal intended** boot.
+2. Transceiver Configuration for **Mass Pre-Production** of transceivers **before they are dispatched**.
 
-    Link is [here](v0.2-doc/users/02-payload_first_boot.md).
+    Link is [here](v0.2-doc/users/02-transceiver-mass-production.md).
 
-3. Raspberry Pi Documentation for users to re-setup SD cards **if operation failures occur**.
+3. Raspberry Pi Documentation for users' **first normal intended** boot.
 
-    Link is [here](v0.2-doc/users//03-payload_setup.md).
+    Link is [here](v0.2-doc/users/03-payload_first_boot.md).
 
-4. Ground Station Documentation for users.
+4. Raspberry Pi Documentation for users to re-setup SD cards **if operation failures occur**.
 
-    Link is [here](v0.2-doc/users/04-ground_station.md).
+    Link is [here](v0.2-doc/users/04-payload_setup.md).
+
+5. Ground Station Documentation for users.
+
+    Link is [here](v0.2-doc/users/05-ground_station.md).
 
 ## Developers' Guide Documentation Plans
 
