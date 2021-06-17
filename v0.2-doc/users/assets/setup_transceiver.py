@@ -32,7 +32,7 @@ if __name__ == "__main__":
     if 'COM' not in com_port:
         com_port = 'COM'+com_port
 
-    ser = serial.Serial(com_port, baudrate=9600, timeout=2)
+    ser = serial.Serial(com_port, baudrate=115200, timeout=2)
 
     ser.write(b"AT")
     time.sleep(1)
