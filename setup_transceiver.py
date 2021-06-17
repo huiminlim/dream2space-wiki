@@ -1,9 +1,12 @@
-import serial
-import time
 import sys
+import time
 
-com_port = input("Enter com port")
-option = input("Enter 1 for ttnc, 2 for payload")
+import serial
+
+com_port = input("Enter COM port: ")
+option = input("Enter 1 for TT&C transceiver, 2 for Payload transceiver: ")
+channel = input("Enter channel [000-127]: ")
+
 
 ser = serial.Serial(com_port, baudrate=9600, timeout=10)
 
@@ -17,10 +20,11 @@ if ret != b"OK\r\n":
     print("Not ok")
     sys.exit()
 
+at_channel_command = ("AT+" + channel).encode("utf-8")
 
 if option == "1":
     # Channel = 005
-    ser.write(b"AT+C005")
+    ser.write(at_channel_command)
     time.sleep(0.01)
     print(ser.readline())
 
@@ -28,12 +32,11 @@ if option == "1":
     ser.write(b"AT+B9600")
     time.sleep(0.01)
     print(ser.readline())
-    
 
 
 elif option == "2":
     # Channel = 125
-    ser.write(b"AT+C125")
+    ser.write(at_channel_command)
     time.sleep(0.01)
     print(ser.readline())
 
@@ -41,5 +44,3 @@ elif option == "2":
     ser.write(b"AT+B115200")
     time.sleep(0.01)
     print(ser.readline())
-
-
