@@ -266,7 +266,7 @@ The button is boxed in **<span style="color: lime">green</span>** in the screens
 
 <img src="ground_stn_images/app-hk-button.png" alt="Housekeeping request button" width="90%"/>
 
-After the Housekeeping command request button is clicked, the Housekeeping command will be sent to the Dream2space Cubeat.
+After the Housekeeping command request button is clicked, the Housekeeping command will be sent to the Dream2space Cubesat.
 
 While the command is being sent, the progress bar will be shown.
 
